@@ -1,0 +1,31 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #f5f5f5;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 24px;
+}
+
+.card {
+  background: white;
+  padding: 16px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+}
+
+.badge {
+  background: #2563eb;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 12px;
+}
+
+.ai {
+  background: #eef2ff;
+  padding: 16px;
+  border-radius: 8px;
+}
