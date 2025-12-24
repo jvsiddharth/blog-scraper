@@ -6,14 +6,14 @@ Backend Scraping and CRUD APIs work and Frontend Works
 ---
 
 ## 📌 Project How to start
-cd backend
-docker compose up --build 
-docker compose exec app php artisan migrate                            
-docker compose exec app php artisan scrape:beyondchats (to initiate scraper)
+- cd backend
+- docker compose up --build 
+- docker compose exec app php artisan migrate                            
+- docker compose exec app php artisan scrape:beyondchats (to initiate scraper)
 
-cd frontend
-npm install
-npm run dev
+- cd frontend
+- npm install
+- npm run dev
 
 ---
 
