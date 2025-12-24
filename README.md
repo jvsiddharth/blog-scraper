@@ -1,4 +1,4 @@
-# BeyondChats – Full-Stack Assignment Submission
+# Blog Scraper
 
 For now script is not tested due to API unavilablity,
 Backend Scraping and CRUD APIs work and Frontend Works
