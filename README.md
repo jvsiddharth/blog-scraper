@@ -19,19 +19,11 @@ Backend Scraping and CRUD APIs work and Frontend Works
 
 The scraper fetches the main blog listing page:
 https://beyondchats.com/blogs
-It scans all anchor tags containing /blogs/page/{n}/
-Using a regular expression, it extracts page numbers
-The maximum page number is selected as the starting point
+- It scans all anchor tags containing /blogs/page/{n}/
+- Using a regular expression, it extracts page numbers
+- The maximum page number is selected as the starting point
 
 ---
-
-## 📁 Repository Structure
-
-├── backend/ # Laravel API + scraping command
-├── node-worker/ # Node.js AI automation script
-├── frontend/ # React frontend (Vite)
-├── docker-compose.yml
-└── README.md
 
 ## 🔌 API Overview
 
@@ -43,3 +35,11 @@ GET /api/articles/{id}
 
 Store / update AI article
 POST /api/articles/{id}/ai
+
+## 📁 Repository Structure
+
+├── backend/ # Laravel API + scraping command
+├── node-worker/ # Node.js AI automation script
+├── frontend/ # React frontend (Vite)
+├── docker-compose.yml
+└── README.md
